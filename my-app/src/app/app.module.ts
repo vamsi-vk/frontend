@@ -17,7 +17,9 @@ import { LoginModule } from './login/login.module';
     MetrialModule,
     BrowserAnimationsModule,
     AdminModule,
+
     LoginModule
+
 
   ],
   providers: [],
