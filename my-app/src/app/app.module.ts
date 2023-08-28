@@ -18,8 +18,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MetrialModule,
     BrowserAnimationsModule,
     AdminModule,
-
-
   ],
   providers: [],
   bootstrap: [AppComponent]
