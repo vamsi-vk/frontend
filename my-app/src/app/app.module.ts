@@ -5,20 +5,19 @@ import { AppComponent } from './app.component';
 import { AdminModule } from './admin/admin.module';
 import { MetrialModule } from './metrial/metrial.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
+import { LoginModule } from './login/login.module';
 @NgModule({
   declarations: [
     AppComponent,
-
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     MetrialModule,
     BrowserAnimationsModule,
     AdminModule,
-
+    LoginModule
 
   ],
   providers: [],
