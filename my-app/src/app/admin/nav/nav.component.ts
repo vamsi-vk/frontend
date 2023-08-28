@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,  EventEmitter,  Output } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
+  @Output() menuToggled = new EventEmitter<boolean>();
 
+  user: string = 'vamsi';
+
+  // constructor(private authService: AuthService) { }
+
+  logout(): void {
+    console.log('Logged out');
+  }
 }
